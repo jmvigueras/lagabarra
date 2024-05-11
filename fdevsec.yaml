@@ -1,6 +1,6 @@
 id:
   org: 6b3ab84a-465a-4087-9b62-f45d108b90bc
-  app: 361737b9-4ac7-404d-acff-7c6600f0afcb
+  app: f3869726-8015-4ab4-bd77-3913d915ab2a
 
 # If below settings are not configured, scans will be performed for all supported scanners.
 #scanners:
@@ -19,7 +19,7 @@ id:
 # Configures target url where dynamic scan should be performed.
 dast:
   url: http://52.50.119.63:8090
-  full_scan: false #true|false
+  full_scan: true #true|false
 
 # Language scanners run sequentially by default. Can be configured to run in parallel.
 #resource:
